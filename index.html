@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <link meta="utf-8">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header><i class="bx bx-left-arrow-alt"></i>Weather App </header>
+            <section class="input-part">
+                <p class="info "></p>
+                <input type="text" placeholder="enter avalid city name..." spellchechk="false" required>
+                <div class="separtor"></div>
+                <button>Get Location</button>
+                
+            </section>
+            <section class="weather-app">
+                <img src="icons/clear.svg">
+                
+                <div clas="temp">
+                    <span class="numb">_</span>
+                    <span class="deg">&#176;</span>
+                </div>
+                <div class="weather">_ _ </div>
+                <div class="location">
+                    <i class="bx bx-map"></i>
+                    <span>_,_</span>
+                </div>
+                <div class="bottm">
+                    <div class="column feels">
+                        <i class="bx bxs-thermometer"></i>
+                        <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">&#176;</span>c
+                        </div>
+                        <p >Feels Like</p>
+                    </div>
+                    </div>
+                    <div class="column humidity">
+                         <i class="bx bxs-droplet-half"></i>
+                        <div class="details">
+                        <span class="numb">_%</span>
+                        <p>Humidity</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
